@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lab 4a Q2 - Smart Number Validator</title>
+  <style>
+  body { font-family: system-ui, Arial, sans-serif; background:#f5f7fa; margin:0; padding:24px; color:#1b2733; }
+  main { max-width: 520px; background:#fff; border:1px solid #cfd8e3; border-radius:10px; padding:20px 24px; }
+  h1 { font-size:1.2rem; margin:0 0 14px; color:#1F3A5F; }
+  button { background:#1F3A5F; color:#fff; border:0; padding:8px 16px; border-radius:6px; font-size:1rem; cursor:pointer; }
+  button:focus-visible, input:focus-visible { outline:3px solid #f0a500; outline-offset:2px; }
+  input { padding:8px; font-size:1rem; margin:0 6px 0 4px; border:1px solid #8a99ab; border-radius:6px; }
+  #result { margin-top:14px; font-weight:600; min-height:1.4em; }
+  li { margin:4px 0; }
+</style>
+</head>
+<body>
+  <main>
+    <h1>Q2: Smart Number Validator</h1>
+    <label for="userInput">Enter a number:</label>
+    <input type="text" id="userInput" placeholder="Enter a number">
+    <button id="checkBtn" type="button">Check</button>
+    <p id="result" role="status" aria-live="polite"></p>
+  </main>
+  <script src="script.js" defer></script>
+</body>
+</html>
